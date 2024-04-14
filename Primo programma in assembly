@@ -1,0 +1,12 @@
+Primo programma in assembly 8088
+
+
+.SECT .TEXT 
+start: 
+    MOV AX,(a)
+    MOV BX,(b)
+    ADD AX,3 
+    MUL AX,BX 
+.SECT .DATA 
+a: .WORD 5 
+b: .WORD 
